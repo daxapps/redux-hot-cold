@@ -11,6 +11,6 @@ export const makeGuess = (guess) => ({
 });
 
 export const TOGGLE_INFO_MODAL = 'TOGGLE_INFO_MODAL';
-export const toggleInModal = () => ({
+export const toggleInfoModal = () => ({
 	type: TOGGLE_INFO_MODAL
 });

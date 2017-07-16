@@ -8,7 +8,7 @@ import './info-modal.css';
 export class InfoModal extends React.Component {
     hide(event) {
         event.preventDefault();
-        this.props.dipatch(toggleInfoModal());
+        this.props.dispatch(toggleInfoModal());
     }
 
     render() {
